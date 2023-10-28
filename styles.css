@@ -1,0 +1,25 @@
+.nav-bar {
+    display: flex;
+    justify-content: space between;
+    text-decoration: none;
+    margin-left: 50 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: antiquewhite;
+    padding-top: 25px;
+}
+
+.main-section {
+    display: flex background-color: greywhite;
+}
+
+.name of my cool image {
+    background-image: url();
+    height: 500 px;
+    width: 800px;
+    background-position: center;
+    background-size: cover
+}
