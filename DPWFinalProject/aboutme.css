@@ -1,0 +1,75 @@
+a:link {
+    color: lightgray;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #666;
+}
+
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    margin-left: 75;
+    padding-top: 25px;
+    padding-left: 145px;
+    padding-bottom: 55px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .02em;
+}
+
+.about-resume-contact {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-color: #999999;
+
+}
+
+.horizontal-line {
+    color: #e8e8e8;
+    margin: 16px;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 12px;
+}
+
+.main-container {
+    border-top-width: thin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.my-story-image {
+    background-image: url("/Users/darleneperezwiesner/Desktop/tech moms/DPWFinalProject/assets/IMG_2720.jpeg");
+    width: 425px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    width: 50%;
+    margin-left: 10px;
+
+}

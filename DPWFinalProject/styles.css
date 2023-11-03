@@ -1,0 +1,83 @@
+a:link {
+    color: lightgray;
+}
+
+a:hover {
+    color: #666;
+}
+
+a:visted {
+    color: black;
+}
+
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    margin-left: 75;
+    padding-top: 25px;
+    padding-left: 65px;
+    padding-bottom: 55px;
+
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .02em;
+}
+
+.about-resume-contact {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-color: #999999;
+
+}
+
+.horizontal-line {
+    color: #e8e8e8;
+    margin: 16px;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 12px;
+}
+
+.aspiring {
+    align-items: flex-start;
+    margin-left: 145px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    font-style: italic;
+    letter-spacing: 0px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+
+.path-in-the-woods {
+    justify-content: center;
+    padding-right: 20;
+    padding-left: 145;
+    height: auto;
+    width: 1100;
+
+}
+
+.centered {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .02em;
+}
