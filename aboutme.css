@@ -1,0 +1,105 @@
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar a:link {
+    color: lightgray;
+}
+
+.nav-bar a:visited {
+    color: black
+}
+
+.nav-bar a:hover {
+    color: #700e0e
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 75;
+    padding-top: 25px;
+    padding-left: 145px;
+    padding-bottom: 55px;
+}
+
+
+
+.name {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .02em;
+}
+
+.about-resume-contact {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #999999;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.horizontal-line {
+    color: #e8e8e8;
+    margin: 16px;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 12px;
+}
+
+.main-container {
+    border-top-width: thin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.my-story-image {
+    background-image: url("/Users/darleneperezwiesner/Desktop/tech moms/DPWFinalProject/assets/IMG_2720.jpeg");
+    width: 425px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 38px;
+}
+
+.sidebar {
+    width: 50%;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-title {
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.article-body {
+    display: block;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-right: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    line-height: 2.0em;
+}
+
+.article-body a {
+    color: black
+}
